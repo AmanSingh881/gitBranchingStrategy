@@ -1,13 +1,14 @@
-'Project Overview'
+# Project Overview
 Welcome to the Git Branching Strategy Project! This project focuses on creating a dynamic data generation and backup system using Python and Shell scripting. The master branch serves as the entry point, providing an overview of the entire project.
 
-##Contents
-#Introduction:
+## Contents
+### Introduction:
 
-Overview of the importance of version control.
-Significance of Git in collaborative development.
-Brief project summary.
-Branching Strategy:
+#### 1. Overview of the importance of version control.
+#### 2.Significance of Git in collaborative development.
+#### 3.Brief project summary.
 
-Description of the planned branching strategy.
-Overview of branches to be created.
+### Branching Strategy:
+
+#### 1.Description of the planned branching strategy.
+#### 2.Overview of branches to be created.
