@@ -6,8 +6,12 @@ file_name="$previous_minute.json"
 
 file_path="/home/ispock/Desktop/data/aman/"
 
+source="$file_path$file_name"
+
 destination="/home/ispock/Documents/data"
 
-mv "$file_path$file_name" $destination
+#echo $source
 
-ls $destination
+mv $source $destination
+
+#ls $destination

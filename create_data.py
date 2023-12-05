@@ -9,7 +9,7 @@ def create_new_file(key):
     ist_offset = timedelta(hours=5, minutes=30)
     utc_time = datetime.utcnow()
     ist_time = utc_time + ist_offset
-    file_name = str(ist_time.strftime("%Y-%m-%d %H%M")) 
+    file_name = str(ist_time.strftime("%Y%m%d_%H%M")) 
     file_path = os.path.join(key, file_name)
     return file_path
 
@@ -27,8 +27,6 @@ def append_data_to_json_file(data, file_path):
 def start_server():
     if not os.path.exists(DATA_DIR):
         os.makedirs(DATA_DIR)
-    
-    print("Server started. Waiting for clients...")
     
     while True:
             current_minute = None
@@ -49,7 +47,7 @@ def start_server():
                     if current_minute != timestamp.minute:
                         current_minute = timestamp.minute
                         current_file = create_new_file(path1)
-                    print(data_dict)
+                    # print(data_dict)
                     append_data_to_json_file(data_dict, current_file)
 
                 except Exception as e:
