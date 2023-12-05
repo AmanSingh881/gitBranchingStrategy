@@ -1,5 +1,6 @@
 # Project Overview
 Welcome to the Git Branching Strategy Project! This project focuses on creating a dynamic data generation and backup system using Python and Shell scripting. The master branch serves as the entry point, providing an overview of the entire project.
+##### Visit here for project description: https://medium.com/@amanadhikariaps/git-branching-strategy-a-step-by-step-guide-9bad259543be
 
 ## Contents
 ### Introduction:
